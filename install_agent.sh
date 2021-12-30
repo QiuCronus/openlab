@@ -8,8 +8,8 @@ mkdir -p $root/packages
 mkdir -p $root/logs
 
 cd $root
-if [ ! -d "./venv/bin/python" ]; then
-	python -m venv venv
+if [ ! -d "$root/venv/bin/python" ]; then
+	python -m venv $root/venv
 fi
 
 cd $root/packages
