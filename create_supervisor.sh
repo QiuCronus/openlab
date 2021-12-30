@@ -15,7 +15,7 @@ write_file(){
 
 
 mkdir -p /home/auser/supervisord.d
-cfg=agent.ini
+cfg=/home/auser/supervisord.d/agent.ini
 
 module=$1
 category=$2
