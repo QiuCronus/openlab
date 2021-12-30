@@ -13,7 +13,7 @@ if [ ! -d "$root/venv/bin/python" ]; then
 fi
 
 cd $root/packages
-wget https://github.com/QiuCronus/openlab/blob/main/openlab_agent-1.1.1-py3-none-any.whl -o openlab_agent-1.1.1-py3-none-any.whl
+wget https://github.com/QiuCronus/openlab/releases/download/v1.1.1/openlab_agent-1.1.1-py3-none-any.whl
 
 cd $root
 venv/bin/pip install $root/packages/openlab_agent-1.1.1-py3-none-any.whl
