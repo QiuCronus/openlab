@@ -16,7 +16,7 @@ if [ ! -d "$root/venv/bin/python" ]; then
 fi
 
 cd $root/packages
-rm -rf $root/packages/openlab_agent-${version}-py3-none-any.whl
+rm -rf $root/packages/openlab_agent-${version}-py3-none-any.whl*
 wget https://github.com/QiuCronus/openlab/releases/download/v1.1.1/openlab_agent-${version}-py3-none-any.whl
 
 cd $root
